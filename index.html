@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <center></center>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEVTA Wazirabad</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #006400;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00ff00;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #about {
+            background-color: #f0f0f0;
+        }
+
+        #courses {
+            background-color: #e8f5e9;
+        }
+
+        #courses ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #courses li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        #gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        #gallery img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        #contact form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        #contact label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #contact button {
+            background-color: #008000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        #contact button:hover {
+            background-color: #006400;
+        }
+
+        footer {
+            background-color: #008000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TEVTA Wazirabad</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to TEVTA Wazirabad</h2>
+        <p>Your gateway to technical education and vocational training.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>TEVTA Wazirabad aims to provide high-quality technical education and <br>
+            skill development courses to empower individuals and contribute to the nation's growth.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <ul>
+            <li>Office Management</li>
+            <li>AutoCAD</li>
+            <li>CNC Programming</li>
+            <li>Web Designing</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div id="gallery">
+            <img src="5.jpg" alt="5.jpg">
+            <img src="2.jpg" alt="2.jpg">
+            <img src="7.jpg" alt="7.jpg">
+            <img src="12.png" alt="12.png">
+            <img src="1.jpg" alt="1.jpg">
+            <img src="13.jpg" alt="13.jpg">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+<center>
+            <button type="submit">Submit</button></center>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TEVTA Wazirabad. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
